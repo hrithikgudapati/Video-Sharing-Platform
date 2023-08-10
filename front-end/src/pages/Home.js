@@ -14,7 +14,7 @@ function Home() {
         publisher="Rajamouli"
         publisherImageSrc=""
       />
-      {/* Add more Movie components here */}
+      
     </div>
   );
 }
