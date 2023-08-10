@@ -1,5 +1,6 @@
-import React from 'react'
-import '../Styles/navbar.css'
+import React from 'react';
+import '../Styles/navbar.css';
+
 function Navbar() {
   return (
     <div id='navbar-container'>
@@ -10,11 +11,11 @@ function Navbar() {
         <input type="text" placeholder='search' />
       </div>
       <div id="actions">
-            <span>Login</span>
-            <span>Register</span>
+        <span>Login</span>
+        <span>Register</span>
       </div>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

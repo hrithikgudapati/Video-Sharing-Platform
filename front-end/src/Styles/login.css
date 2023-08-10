@@ -1,0 +1,78 @@
+.login-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-box {
+    flex: 1;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQPwmZ3__jCuDvX2PnLPAL6LyqFnx8sgfChw&usqp=CAU') no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px;
+  }
+  
+  .tuner-box {
+    text-align: center;
+    color:rgb(196,180,248);
+    font-size: 30px;
+  }
+  
+  .right-box {
+    flex: 1;
+    background-color:rgb(23,26,39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .signin-box {
+    text-align: center;
+    padding: 20px;
+    border: none;
+    border-radius: none;
+    background-color:rgb(23,26,39);
+    
+  }
+
+  .sign {
+    font-size: 30px;
+    color: white;
+  }
+  #an{
+    color: white;
+    font-size: 20px;
+    
+  }
+
+  .si{
+    font-size: 20px;
+    color: white;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgb(23,26,39);
+    border-inline: none;
+  }
+  .signin-box input::placeholder {
+    color: white; 
+    text-decoration: solid;
+
+  }
+  
+  
+  button {
+    width: 30%;
+    padding: 10px 20px;
+    background-color:rgb(160,148,204);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
