@@ -6,6 +6,7 @@ import User from'../Assets/OIP.jpeg'
 const VideoItem = () => {
   return (
     <div>
+      
       <div id="Item-container">
         <img id="thumbnail"src={picture} alt="thumbanail" />
         <div id='play'><img  src={playButton}alt="playbutton" /></div>
@@ -17,6 +18,7 @@ const VideoItem = () => {
             <span id="views">200 Views</span>
         </div>
       </div>
+      
       
     </div>
   )

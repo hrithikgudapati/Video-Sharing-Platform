@@ -30,6 +30,7 @@
   .movie .info h3{
     font-size: 40px;
     margin: 0px;
+    text-align: left;
   }
 
   .movie .info .movie-info{

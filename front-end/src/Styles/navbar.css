@@ -37,7 +37,10 @@
     font-size: 14px;
     color: #FFFFFF;
 }
-#actions span:first-child::after{
+#actions a{
+    text-decoration: none;
+}
+#actions a span:first-child::after{
    content: "|";
    color: #FFFFFF;
    margin: 0px 10px;

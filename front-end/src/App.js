@@ -1,17 +1,18 @@
 import React from 'react';
 import './App.css';
+import RouteConfig from './Layout/RouteConfig';
 
 // import Navbar from './component/Navbar';
 
 // import Home from './pages/Home';
 // import VideoItem from './component/VideoItem';
-// import Login from './component/LoginPage';
-// import Register from './component/RegisterPage';
+// import LoginPage from './component/LoginPage';
+// import RegisterPage from './component/RegisterPage';
 
 
 // import Navbar from './component/Navbar';
 // import UploadVideo from './component/UploadVideo';
-import Home from './pages/Home';
+// import Home from './pages/Home';
 // import Myvideos from './pages/Myvideos';
 // import VideoItem from './component/VideoItem';
 // import VideoPlay from './pages/VideoPlay';
@@ -25,7 +26,10 @@ function App() {
       {/* <VideoPlay/> */}
       {/* <Myvideos/> */}
       {/* <UploadVideo/> */}
-      <Home/>
+      {/* <Home/> */}
+      {/* <LoginPage/> */}
+      {/* <RegisterPage/> */}
+      <RouteConfig/>
     </div>
   );
 }
