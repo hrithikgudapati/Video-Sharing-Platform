@@ -10,7 +10,8 @@ import './App.css';
 
 
 // import Navbar from './component/Navbar';
-import UploadVideo from './component/UploadVideo';
+// import UploadVideo from './component/UploadVideo';
+import Home from './pages/Home';
 // import Myvideos from './pages/Myvideos';
 // import VideoItem from './component/VideoItem';
 // import VideoPlay from './pages/VideoPlay';
@@ -21,9 +22,10 @@ function App() {
     <div className="App">
       {/* <Navbar/> */}
       {/* <VideoItem/> */}
-      {/* <VideoPlay/>/ */}
+      {/* <VideoPlay/> */}
       {/* <Myvideos/> */}
-      <UploadVideo/>
+      {/* <UploadVideo/> */}
+      <Home/>
     </div>
   );
 }
